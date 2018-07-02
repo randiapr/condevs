@@ -1,3 +1,6 @@
+const atob = require("atob");
+const uriMongo = atob("bW9uZ29kYjovL3JhbmRpYXByOnJhbmRpYXByQGRzMjMxMjI5Lm1sYWIuY29tOjMxMjI5L2RldmNvbm5lY3Q=");
+
 module.exports = {
-  mongoURI : "mongodb://randiapr:randiapr@ds231229.mlab.com:31229/devconnect"
+  mongoURI : uriMongo
 }
